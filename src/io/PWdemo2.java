@@ -19,13 +19,13 @@ public class PWdemo2 {
         while(true){
             String line=scan.nextLine();
             if("exit".equals(line)){
-                return;
+                break;
             }
             pw.println(line);
             //pw.flush();//即时刷新
         }
         pw.close();
-        System.out.println("结束！");
+
 
     }
 }
